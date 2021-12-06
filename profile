@@ -27,3 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 . "$HOME/.cargo/env"
 NODE_OPTIONS='--max-old-space-size=10000'
+export LC_ALL="en_US.UTF-8"
