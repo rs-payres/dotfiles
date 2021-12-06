@@ -15,9 +15,7 @@
       force: true
     ~/.gitconfig: gitconfig
     ~/.config/starship.toml: starship.toml
-    ~/.vim: vim
-    ~/.vimrc: vimrc
+    ~/.config/nvim: nvim
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - ["vim +PlugUpdate +PlugClean! +qa", Installing and updating vim plugins]
     - ["nvim +PlugUpdate +PlugClean! +qa", Installing and updating nvim plugins]
