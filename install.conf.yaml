@@ -1,3 +1,22 @@
-- clean: []
-- link: {}
-- shell: []
+- defaults:
+    link:
+      relink: true
+- clean: ["~"]
+- link:
+    ~/.tmux.conf: tmux.conf
+    ~/.tmux: tmux
+    ~/.bash_aliases: bash_aliases
+    ~/.bashrc: bashrc
+    ~/.profile: profile
+    ~/.gitconfig: gitconfig
+    ~/.config/starship.toml: starship.toml
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [sh -c "$(curl -fsSL https://starship.rs/install.sh)", Install starship]
+    - [
+        ~/.tmux/plugins/tmp/scripts/install-plugins.sh >/dev/null 2>&1,
+        Installing tmux plugins,
+      ]
+    - ["vim +PlugUpdate +PlugClean! +qa", Installing and updating vim plugins]

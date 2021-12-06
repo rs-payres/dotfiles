@@ -1,0 +1,36 @@
+[core]
+editor = nvim
+[color]
+ui = auto
+[color "branch"]
+local = yellow
+current = yellow reverse
+remote = cyan bold
+[color "diff"]
+frag = magenta bold
+meta = cyan bold
+new = green bold
+old = red bold
+[color "status"]
+changed = green bold
+added = cyan bold
+untracked = magenta bold
+[alias]
+co = checkout
+br = branch
+ci = commit -m
+st = status
+unstage = reset HEAD --
+last = log -1 HEAD
+aa = add .
+pn = push -u origin
+pm = pull origin main
+p = push
+f = pull
+cob = checkout -b
+cm = checkout master
+[user]
+email = payres@rediker.com
+name = Patrick Ayres
+[pull]
+rebase = false

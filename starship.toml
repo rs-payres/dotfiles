@@ -1,0 +1,32 @@
+[shell]
+fish_indicator = "🐟"
+bash_indicator = "👊"
+
+[kubernetes]
+disabled = false
+format = 'on [⛵ $context ](dimmed green) '
+[kubernetes.context_aliases]
+"redikube-eastus-dev" = "dev"
+"redikube-eastus-prod" = "prod"
+"redikube-eastus-redisite" = "redisite"
+"redikube-eastus-prod-admin" = "prod-admin"
+"redikube-eastus-dev-admin" = "dev-admin"
+"redikube-eastus-redisite-admin" = "redisite-admin"
+
+[time]
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+utc_time_offset = "-5"
+
+[helm]
+format = "via [⎈ $version](bold white) "
+
+[terraform]
+format = '[🏎💨 $version$workspace]($style) '
+
+[status]
+style = "bg:blue"
+symbol = "🔴"
+format = '[\[$symbol $status_common_meaning$status_signal_name$status_maybe_int\]]($style) '
+map_symbol = true
+disabled = false
