@@ -26,5 +26,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 . "$HOME/.cargo/env"
-NODE_OPTIONS='--max-old-space-size=10000'
+NODE_OPTIONS='--max-old-space-size=14000'
 export LC_ALL="en_US.UTF-8"
