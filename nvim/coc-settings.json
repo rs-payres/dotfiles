@@ -2,6 +2,7 @@
     "coc.preferences.extensionUpdateCheck": "daily",
     "coc.preferences.formatOnType": true,
     "coc.preferences.formatOnSaveFiletypes": ["typescript", "css", "markdown", "javascript", "prisma"],
+    "coc.preferences.maxFileSize": "20MB",
     "diagnostic.checkCurrentLine": true,
     "diagnostic.virtualText": true,
     "diagnostic.enableMessage": "jump",
