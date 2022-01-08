@@ -78,8 +78,8 @@ nnoremap J mzJ`z
 imap jj <esc>
 
 " Easy insertion of a trailing ; or , from insert mode
-imap ;; <Esc>A;<Esc>
-imap ,, <Esc>A,<Esc>
+" imap ;; <Esc>A;<Esc>
+" imap ,, <Esc>A,<Esc>
 
 "cmap w!! %!sudo tee > /dev/null %
 
