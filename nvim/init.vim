@@ -126,6 +126,7 @@ source ~/.config/nvim/plugins/repeat.vim
 source ~/.config/nvim/plugins/sayonara.vim
 source ~/.config/nvim/plugins/smoothie.vim
 source ~/.config/nvim/plugins/splitjoin.vim
+source ~/.config/nvim/plugins/startify.vim
 source ~/.config/nvim/plugins/surround.vim
 source ~/.config/nvim/plugins/targets.vim
 source ~/.config/nvim/plugins/textobj-xmlattr.vim
