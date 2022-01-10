@@ -28,3 +28,6 @@ fi
 . "$HOME/.cargo/env"
 NODE_OPTIONS='--max-old-space-size=4096'
 export LC_ALL="en_US.UTF-8"
+
+# set up bash completion for flux cli
+command -v flux >/dev/null && . <(flux completion bash)
