@@ -29,6 +29,7 @@ p = push
 f = pull
 cob = checkout -b
 cm = checkout master
+	d = diff
 [user]
 email = payres@rediker.com
 name = Patrick Ayres
