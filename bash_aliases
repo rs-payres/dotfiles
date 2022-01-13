@@ -1,7 +1,7 @@
 # NAVIGATION
 alias ...='cd ../..'
 alias .3='cd ../../..'
-alias tfr='cd ~/src/rediker_terraform'
+alias tfr='cd ~/src/tfr'
 alias jupiter='cd ~/src/rediker-jupiter'
 alias tmpjupiter='cd ~/tmpsrc/rediker-jupiter'
 alias sso='cd ~/src/sso'
