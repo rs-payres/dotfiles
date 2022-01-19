@@ -12,6 +12,7 @@ format = 'on [⛵ $context ](dimmed green) '
 "redikube-eastus-prod-admin" = "prod-admin"
 "redikube-eastus-dev-admin" = "dev-admin"
 "redikube-eastus-redisite-admin" = "redisite-admin"
+"kind-kind" = "local"
 
 [time]
 disabled = false
