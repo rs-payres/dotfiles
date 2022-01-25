@@ -8,6 +8,7 @@ let g:coc_global_extensions = [
     \ 'coc-git',
     \ 'coc-html',
     \ 'coc-json',
+    \ 'coc-markdownlint',
     \ 'coc-pairs',
     \ 'coc-prettier',
     \ 'coc-prisma',
