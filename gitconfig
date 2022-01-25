@@ -35,3 +35,5 @@ email = payres@rediker.com
 name = Patrick Ayres
 [pull]
 rebase = false
+[init]
+	defaultBranch = main
