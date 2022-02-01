@@ -18,7 +18,7 @@ untracked = magenta bold
 [alias]
 co = checkout
 br = branch
-ci = commit -m
+ci = commit
 st = status
 unstage = reset HEAD --
 last = log -1 HEAD
