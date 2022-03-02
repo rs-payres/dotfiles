@@ -15,6 +15,7 @@ alias ym='yarn migrate'
 alias ycr='yarn env-cmd -f development.env --fallback --no-override lerna run --scope @rediker-jupiter/sis --scope @rediker-jupiter/api start:debug --parallel'
 alias c='yarn generate 2>~/tmp/missing-types'
 alias t='node --stack-size=1500 ./node_modules/.bin/tsc --noEmit -p ./packages/server/api/tsconfig.json | tee ~/tmp/type-errors'
+alias ytsc="NODE_OPTIONS='--max-old-space-size=4096' yarn lint:tsc"
 
 # SUDO
 alias please='sudo'
